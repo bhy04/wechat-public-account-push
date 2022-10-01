@@ -14,7 +14,7 @@ const USER_CONFIG = {
   APP_SECRET: '80ba70093f6feda5a575f8c3ad07ad72',
 
   PROVINCE: '山西',
-  CITY: '榆次区',
+  CITY: '太原',
 
   USERS: [
     {
@@ -24,8 +24,6 @@ const USER_CONFIG = {
       id: 'oh5Z76Dp3eVqbt44Ri_uy9ZxYygI',
       // 使用微信测试号：你想对他发送的模板消息的模板ID
       useTemplateId: 'dHnfm6a5gP35GUD53ODDWMThli9phiao3dxaOscTgYk',
-      // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
-      horoscopeDate: '01-15',
       festivals: [
         // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
         {
